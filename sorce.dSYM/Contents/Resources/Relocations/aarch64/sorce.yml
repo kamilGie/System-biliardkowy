@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/koxu2115/Desktop/kody/studia/projekt_zaliczeniowy/System-biliardkowy/sorce'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _add_billiard_system_numbers, symObjAddr: 0x0, symBinAddr: 0x100003228, symSize: 0x194 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _add_billiard_system_numbers, symObjAddr: 0x0, symBinAddr: 0x100003228, symSize: 0x194 }
+  - { offsetInCU: 0xB2, offset: 0xB2, size: 0x8, addend: 0x0, symName: _multiply_by_2, symObjAddr: 0x194, symBinAddr: 0x1000033BC, symSize: 0x78 }
+  - { offsetInCU: 0xE9, offset: 0xE9, size: 0x8, addend: 0x0, symName: _multiply_by_10, symObjAddr: 0x20C, symBinAddr: 0x100003434, symSize: 0x13C }
+  - { offsetInCU: 0x12E, offset: 0x12E, size: 0x8, addend: 0x0, symName: _string_to_billiard_system_number, symObjAddr: 0x348, symBinAddr: 0x100003570, symSize: 0x17C }
+  - { offsetInCU: 0x19F, offset: 0x19F, size: 0x8, addend: 0x0, symName: _print_billiard_system_number, symObjAddr: 0x4C4, symBinAddr: 0x1000036EC, symSize: 0xD4 }
+  - { offsetInCU: 0x1D2, offset: 0x1D2, size: 0x8, addend: 0x0, symName: _are_different, symObjAddr: 0x598, symBinAddr: 0x1000037C0, symSize: 0x9C }
+  - { offsetInCU: 0x224, offset: 0x224, size: 0x8, addend: 0x0, symName: _is_number_greater_or_equal, symObjAddr: 0x634, symBinAddr: 0x10000385C, symSize: 0xE0 }
+  - { offsetInCU: 0x276, offset: 0x276, size: 0x8, addend: 0x0, symName: _multiply_billiard_system_numbers, symObjAddr: 0x714, symBinAddr: 0x10000393C, symSize: 0x350 }
+  - { offsetInCU: 0x324, offset: 0x324, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA64, symBinAddr: 0x100003C8C, symSize: 0x260 }
+...
