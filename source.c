@@ -136,7 +136,6 @@ billiard_system_number multiply_billiard_system_numbers(billiard_system_number m
 }
 
 
-
 int main()
 {
     char sm[MAX_NUMBER_SIZE * 20 + 1], sn[MAX_NUMBER_SIZE * 20 + 1];
@@ -163,7 +162,6 @@ int main()
         printf("Carry in sum!\n");
     }
     print_billiard_system_number(sum);
-
 
     billiard_system_number product;
     product = multiply_billiard_system_numbers(m, n, &carry);
