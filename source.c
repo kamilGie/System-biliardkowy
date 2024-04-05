@@ -10,7 +10,7 @@ typedef struct { unsigned long digits[MAX_NUMBER_SIZE]; } billiard_system_number
 
 billiard_system_number add_billiard_system_numbers(const billiard_system_number m, const billiard_system_number n, bool *carry_out)
 {
-    billiard_system_number res = {};
+    billiard_system_number res;
     *carry_out = false;
 
     for (int i = 0; i < MAX_NUMBER_SIZE; i++)
@@ -139,24 +139,25 @@ billiard_system_number multiply_billiard_system_numbers(billiard_system_number m
 
 int main()
 {
-    billiard_system_number m, n;
     char sm[MAX_NUMBER_SIZE * 20 + 1], sn[MAX_NUMBER_SIZE * 20 + 1];
     scanf("%s %s", sm, sn);
 
-    bool carry = false;
+    bool carry;
+    billiard_system_number m;
     m = string_to_billiard_system_number(sm, &carry);
     if (carry){
         printf("m number too large!\n");
         return 0;
     }
 
+    billiard_system_number n;
     n = string_to_billiard_system_number(sn, &carry);
     if (carry){
         printf("n number too large!\n");
         return 0;
     }
 
-    billiard_system_number sum = {};
+    billiard_system_number sum;
     sum = add_billiard_system_numbers(m, n, &carry);
     if (carry){
         printf("Carry in sum!\n");
@@ -164,7 +165,7 @@ int main()
     print_billiard_system_number(sum);
 
 
-    billiard_system_number product = {};
+    billiard_system_number product;
     product = multiply_billiard_system_numbers(m, n, &carry);
     if (carry){
         printf("Carry in product!\n");
