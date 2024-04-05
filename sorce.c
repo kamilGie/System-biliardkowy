@@ -4,6 +4,7 @@
 
 #define MAX_NUMBER_SIZE 5
 
+//in the program, I assumed that the system is using a 64-bit unsigned long data type.
 typedef struct { unsigned long digits[MAX_NUMBER_SIZE]; } billiard_system_number;
 
 
@@ -144,15 +145,13 @@ int main()
 
     bool carry = false;
     m = string_to_billiard_system_number(sm, &carry);
-    if (carry)
-    {
+    if (carry){
         printf("m number too large!\n");
         return 0;
     }
 
     n = string_to_billiard_system_number(sn, &carry);
-    if (carry)
-    {
+    if (carry){
         printf("n number too large!\n");
         return 0;
     }
