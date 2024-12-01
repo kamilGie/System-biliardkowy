@@ -1,9 +1,14 @@
 # System-biliardkowy
 ## dodawanie oraz mnożenie  dużych  liczb w systemie biliardkowym 
 
-jeden z filmow w ktorym uczylem znajmoych jak zrobic ten projekt : www.youtube.com/watch?v=mqZqfI3qbeo&t=2940s
+Projekt na warsztat programisty bioinformatyki Uniwersytetu Jagiellońskiego 2023
 
-system jest biliardkowy, bo podstawa systemu to 2^64 = 18446744073709551616
+filmy w ktorym uczylem znajmoych jak zrobic ten projekt :
+- Wprowadzenie - https://www.youtube.com/watch?v=EqGcsYo_sxY
+- **meritum** - https://www.youtube.com/watch?v=R61mpXbHYOI
+- rozszerzenie - www.youtube.com/watch?v=mqZqfI3qbeo&t=2940s
+
+### system jest biliardkowy, bo podstawa systemu to 2^64 = 18446744073709551616
 
 w systemie dwojkowym cyfry sa od 0 do 2-1
 
